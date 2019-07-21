@@ -1,0 +1,1960 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   Responsive CSS
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/*@media only screen and (min-width: 1400px) and (max-width: 1920px) {}*/
+
+@media only screen and (min-width: 1400px) and (max-width: 1496.99px) {
+
+        /*===================================
+        Banner-slider-section-start
+    ==================================*/
+
+
+    /*===================================
+     Banner-slider-section-end
+    ==================================*/
+
+
+/*==========================
+   Featured-Class-section-start
+=============================*/
+
+.feature-slider-control {
+    display: block;
+}
+
+#featured .feature-slider-control .feature-left{
+    left: 70px;
+}
+
+#featured .feature-slider-control .feature-right{
+    right: 70px;
+}
+
+
+/*==========================
+   Featured-Class-section-end
+=============================*/
+
+
+/*================================
+   Frequently-asked-questions-Class-section-start
+=====================================*/
+
+#training {
+    background: #00142c;
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 159px;
+    height: 765px;
+}
+.trining-back-img img {
+    height: 765px;
+}
+
+/*================================
+ Frequently-asked-questions-Class-section-end
+=====================================*/
+
+
+
+/*================================
+       Our-tenars-section-start
+=====================================*/
+.trainers-slider-control{
+    display: block;
+}
+#tenars-bg .trainers-slider-control .trainers-left{
+    left: 70px;
+}
+
+#tenars-bg .trainers-slider-control .trainers-right{
+    right: 70px;
+}
+
+/*================================
+          Our-tenars-section-end
+=====================================*/
+
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.99px) {
+
+    /*===================================
+        Banner-slider-section-start
+    ==================================*/
+
+.slider_text {
+    left: 30px;
+}
+
+
+#banner-slider .slider-control .angle-left{
+    left: 10px;
+}
+#banner-slider .slider-control .angle-right{
+    right: 10px;
+}
+
+.slider_text.text-right.slider-text-right {
+    margin-right: 80px;
+}
+
+/*===================================
+        Banner-slider-section-end
+    ==================================*/
+
+
+/*================================
+ Frequently-asked-questions-Class-section-start
+=====================================*/
+
+#training {
+    background: #00142c;
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 159px;
+    height: 790px;
+}
+.trining-back-img img {
+    height: 790px;
+}
+
+/*================================
+  Frequently-asked-questions-Class-section-end
+=====================================*/
+
+/*==========================
+   Featured-Class-section-start
+=============================*/
+
+.feature-slider-control {
+    display: none;
+}
+
+
+.card .icon-bog {
+    top: 40%;
+}
+.featured .card-body h4 {
+    font-size: 18px;
+}
+
+#featured ul.slick-dots{
+    display: block !important;
+}
+#featured .slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+}
+#featured {
+    position: relative;
+    padding-bottom: 145px;
+}
+/*==========================
+   Featured-Class-section-end
+=============================*/
+
+
+/*================================
+       Our-tenars-section-start
+=====================================*/
+.trainers-slider-control{
+    display: none;
+}
+
+#tenars-bg ul.slick-dots{
+    display: block !important;
+}
+#tenars-bg .slick-dots {
+    position: absolute;
+     left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+}
+#pricing-plan {
+    margin-top: 45px;
+}
+
+/*================================
+          Our-tenars-section-end
+=====================================*/
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.99px) {
+
+    /*===================================
+        Banner-slider-section-start
+    ==================================*/
+
+    .navbar::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 60px;
+    width: 91%;
+    height: 1px;
+    background: rgba(255, 255, 255, .2);
+}
+
+#banner-slider .slider-control .angle-left {
+    left: 27px;
+}
+.slider_text h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-left: 70px;
+}
+.slider_text h4 {
+    margin-left: 70px;
+}
+.slider-btn {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#banner-slider .slider-control .angle-right {
+    right: 27px;
+}
+.slider_text.text-right.slider-text-right {
+    margin-right: 75px;
+}
+
+/*===================================
+        Banner-slider-section-end
+    ==================================*/
+
+
+/*================================
+           About-section-start
+======================================*/
+.about-right-img2 img {
+    height: 165px;
+}
+
+/*================================
+           About-section-end
+======================================*/
+
+
+
+/*==========================
+   Featured-Class-section-start
+=============================*/
+
+.feature-slider-control {
+    display: none;
+}
+
+
+.card .icon-bog {
+    top: 40%;
+}
+.featured .card-body h4 {
+    font-size: 18px;
+}
+
+#featured ul.slick-dots{
+    display: block !important;
+}
+#featured .slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+}
+#featured {
+    position: relative;
+    padding-bottom: 145px;
+}
+/*==========================
+   Featured-Class-section-end
+=============================*/
+
+/*================================
+ Frequently-asked-questions-Class-section-start
+=====================================*/
+
+#training {
+    background: #00142c;
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 159px;
+    height: 850px;
+}
+.trining-back-img img {
+    height: 850px;
+}
+
+/*================================
+ Frequently-asked-questions-Class-section-end
+=====================================*/
+
+
+
+/*================================
+          Bmi-section-start
+=====================================*/
+.bmi-btn span {
+    margin-top: 19px;
+    top: 5px;
+    padding-left: 0;
+    margin-left: 100px;
+    position: relative;
+    left: 125px;
+    top: -35px;
+}
+
+.btn-sm {
+    padding: 10px 25px !important;
+    font-size: 11px !important;
+}
+
+/*================================
+         Bmi-section-end
+=====================================*/
+/*================================
+       Our-tenars-section-start
+=====================================*/
+.trainers-slider-control{
+    display: none;
+}
+.trainer-thumbnail:hover .trainer-img-overlay {
+    height: 70%;
+}
+
+
+
+
+#tenars-bg ul.slick-dots{
+    display: block !important;
+}
+#tenars-bg .slick-dots {
+    position: absolute;
+     left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+}
+#pricing-plan {
+    margin-top: 50px;
+}
+
+/*================================
+          Our-tenars-section-end
+=====================================*/
+
+/*==========================================
+ Counter-up-section-start 
+==========================================
+*/
+
+.counter-item h2 {
+    font-size: 20px;
+}
+/*
+==========================================
+ Counter-up-section-end 
+==========================================
+*/
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.99px) {
+/*===================================
+     Nav-section-start
+ =======================================*/
+
+ .header-top-contact ul li a {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+    .back-to-top {
+        right: 4px;
+    }
+
+.header-bottom {
+    background: #00142c;
+    padding-top: -28px;
+    padding-bottom: 25px;
+}
+ ul.list-inline {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+  
+    /*header top toggle icon*/
+       .header-top-toggle {
+        display: block;
+       
+    }
+
+   .toggle-icon {
+    float: right;
+    background: #00142c;
+    text-align: left;
+    border-radius: 1px;
+    position: relative;
+    top: -14px;
+    left: 10px;
+    display: none;
+}
+
+
+    .navbar-brand img {
+        width: 155px;
+    }
+
+
+.nav-item {
+    text-align: center;
+}
+    .navbar {
+        padding: 8px 16px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: transparent;
+        font-size: 30px;
+    }
+
+    .navbar::after {
+        display: none;
+    }
+
+    #about-main .pr-0,
+    .px-0 {
+        padding-right: 15px !important;
+    }
+
+
+    .box .details {
+        bottom: 67px;
+    }
+
+    .slider2 {
+        margin-top: 0px;
+    }
+
+    /*===================================
+     Nav-section-end
+ =======================================*/
+
+/*===================================
+        Banner-slider-section-start
+    ==================================*/
+.slider_text h1 {
+    font-size: 65px;
+}
+
+   .slider-control {
+    display: none;
+}
+.slider-bg1,
+.slider-bg2,
+.slider-bg3{
+    padding-bottom: 100px;
+}
+
+#banner-slider ul.slick-dots{
+    display: block !important;
+
+}
+
+#banner-slider .slick-dots {
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+}
+
+/*===================================
+      Banner-slider-section-end
+ ==================================*/
+
+
+/*================================
+           About-section-start
+======================================*/
+   /*------------
+   320 ar defolt style start
+   ------------------*/
+    .text-center.header-section {
+        margin-top: -50px;
+    }
+    .section-title-bar{
+        margin-bottom: 45px;
+    }
+
+
+
+
+    .about-left-content h3 {
+        font-size: 18px;
+        line-height: 0;
+        margin-bottom: 5px;
+    }
+
+    .about-right-img {
+        padding-top: 20px;
+    }
+
+    .about-right-img img {
+        margin-bottom: 30px;
+    }
+
+    .about-right-img2 img {
+        margin-bottom: 15px;
+    }
+
+    .about-right-img2 img {
+        margin-bottom: 30px;
+    }
+
+    #about-main .pr-0,
+    .px-0 {
+        padding-right: 0px !important;
+    }
+
+   .signature img {
+    left: 204px;
+    top: -47px;
+}
+.about-right-img img {
+    margin-left: 0px;
+}
+.about-right-img2 img {
+	margin-bottom: 16px;
+	height: 161px;
+}
+.about-right-img2 {
+    margin-top: 20px;
+}
+.signature img {
+	left: 0;
+	top: 50px;
+}
+/*================================
+         About-section-end
+======================================*/
+
+/*================================
+     Service-section-start
+=====================================*/
+
+#service-bg::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+   background: rgba(0,0,0,.75);
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/*================================
+      Service-section-end
+=====================================*/
+
+/*==========================
+   Featured-Class-section-start
+=============================*/
+
+.feature-slider-control {
+    display: none;
+}
+
+
+.card .icon-bog {
+    top: 45%;
+}
+.featured .card-body h4 {
+    font-size: 18px;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+#featured ul.slick-dots{
+    display: block !important;
+}
+#featured .slick-dots {
+    position: absolute;
+    left: 40%;
+    bottom: -30px;
+}
+#featured {
+    position: relative;
+    padding-bottom: 145px;
+}
+/*==========================
+   Featured-Class-section-end
+=============================*/
+/*================================
+ Frequently-asked-questions-Class-section-start
+=====================================*/
+.training-faq {
+    padding-right: 0px;
+}
+.trining-back-img img {
+    height: auto;
+    padding-top: 60px;
+}
+.about-right-img2 img {
+    margin-bottom: 16px;
+    height: 162px;
+    width: 100%;
+}
+.about-main-section .col-lg-6.col-md-6 {
+    margin-top: 60px;
+}
+/*================================
+ Frequently-asked-questions-Class-section-end
+=====================================*/
+
+/*================================
+       Class-Schedule-section-start
+=====================================*/
+
+    .block-schedule .tab-nav a {
+        margin-right: 15px;
+        margin-bottom: 14px;
+    }
+
+ .bg-white .icon-person.mr-3 {
+    margin-left: -38px;
+}
+.btn.primary-btn.btn-sm.btn-round.pill.px-4.mt-3.mt-md-0 {
+    margin-right: 167px;
+}
+
+.block-schedule .tab-nav a {
+    color: #fff;
+    text-transform: uppercase;
+    background: #c01527;
+    background-color: rgb(192, 21, 39);
+    margin-right: 10px;
+    padding: 10px 25px;
+}
+.block-schedule .tab-nav a {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.nav-pills .nav-link {
+    border-radius: 3px;
+}
+.btn.primary-btn.btn-sm.btn-round.pill.px-4.mt-3.mt-md-0 {
+    margin-top: 20px !important;
+}
+
+/*================================
+         Class-Schedule-section-end
+=====================================*/
+
+
+
+
+/*================================
+          Bmi-section-start
+=====================================*/
+.bmi-btn span {
+    margin-top: 19px;
+    top: 5px;
+    padding-left: 0;
+    margin-left: -16px;
+    position: relative;
+    left: 30px;
+}
+
+.btn-sm {
+    padding: 10px 25px !important;
+    font-size: 11px !important;
+}
+
+/*================================
+         Bmi-section-end
+=====================================*/
+
+
+
+
+/*================================
+       Our-tenars-section-start
+=====================================*/
+.trainers-slider-control{
+    display: none;
+}
+
+#tenars-bg .slick-dots li {
+  display: inline-block;
+width: 15px;
+height: 9px;
+border-radius: 5px;
+background: transparent;
+margin: 0 5px;
+border: none;
+background: #00142c;
+}
+
+
+#tenars-bg .slick-dots li button{
+
+    background: transparent;
+    color: transparent;
+    border: 0;
+    transition: all linear .4s;
+
+}
+#tenars-bg li.slick-active {
+    width: 30px;
+    border-radius: 5px;
+    height: 10px;
+    margin-top: ;
+    position: relative;
+    top: 0px;
+    border:none;
+    background: #c01527;
+}
+#tenars-bg .slick-dots {
+    position: absolute;
+    left: 45%;
+    bottom: -30px;
+}
+
+
+#tenars-bg ul.slick-dots{
+    display: block !important;
+
+}
+#tenars-bg {
+    position: relative;
+    padding-bottom: 145px;
+}
+
+
+/*================================
+          Our-tenars-section-end
+=====================================*/
+
+/*================================
+          Pricing-section-start
+=====================================*/
+
+.m-md-auto .pricetable{
+    margin-top: 30px;
+}
+/*================================
+          Pricing-section-end
+=====================================*/
+
+
+
+/*==========================================
+ Counter-up-section-start 
+==========================================
+*/
+
+.counter-item h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.counter-item h3{
+    font-size: 25px;
+}
+.counter-item h2 {
+    margin-top: 20px;
+}
+.sm-mb-0{
+    margin-bottom: 0 !important;
+}
+/*
+==========================================
+ Counter-up-section-end 
+==========================================
+*/
+
+
+/*
+==========================================
+ Gallery-section-start  
+==========================================
+*/
+.m-md-auto .gallery-item{
+    margin-top: 30px;
+}
+
+
+/*
+==========================================
+ Gallery-section-end 
+==========================================
+*/
+
+/*
+==========================================
+ Latest-blog-news-section-start 
+==========================================
+*/
+.m-md-auto .blog-post-thumbnail {
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.blog-post-content ul.list-inline {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+/*
+==========================================
+ Latest-blog-news-section-start 
+==========================================
+*/
+
+
+
+/*
+==========================================
+ Footer-section-start 
+==========================================
+*/
+.m-md-auto .js-contact-info{
+    margin-top: 30px;
+}
+ .footer-left-content .list-inline {
+
+    margin-left: -123px;
+}
+/*
+==========================================
+Footer-section-end 
+==========================================
+*/
+
+
+}
+
+@media only screen and (max-width: 767.99px) {
+
+/*===================================
+     Nav-section-start
+ =======================================*/
+
+ .header-top-contact ul li a {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+    .back-to-top {
+        right: 4px;
+    }
+
+   .header-bottom {
+    background: #00142c; 
+    padding-top: 24px;
+}
+ ul.list-inline {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*header top toggle icon*/
+    .header-top-toggle {
+        display: block;
+       
+    }
+
+   .toggle-icon {
+    float: right;
+    background: #00142c;
+    text-align: center;
+    border-radius: 1px;
+    position: relative;
+    top: -14px;
+    left: 10px;
+    display: none;
+}
+
+  /*  .toggle-icon i {
+        font-size: 35px;
+        padding: 3px 6px;
+        color: #fff;
+    }
+*/
+
+    .navbar-brand img {
+        width: 155px;
+    }
+
+
+.nav-item {
+    text-align: center;
+}
+    .navbar {
+        padding: 8px 16px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: transparent;
+        font-size: 30px;
+    }
+
+    .navbar::after {
+        display: none;
+    }
+
+    #about-main .pr-0,
+    .px-0 {
+        padding-right: 15px !important;
+    }
+
+
+    .box .details {
+        bottom: 67px;
+    }
+
+    .slider2 {
+        margin-top: 0px;
+    }
+    .navbar.navbar-expand-lg.navbar-light {
+    position: relative;
+    bottom: 12px;
+}
+
+    /*===================================
+     Nav-section-end
+ =======================================*/
+
+/*===================================
+        Banner-slider-section-start
+    ==================================*/
+  .slider_text h1 {
+    font-size: 50px;
+}
+
+   .slider-control {
+    display: none;
+}
+.slider-bg1,
+.slider-bg2,
+.slider-bg3{
+    padding-bottom: 100px;
+}
+
+#banner-slider ul.slick-dots{
+    display: block !important;
+
+}
+
+#banner-slider .slick-dots {
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+}
+
+.site-main-slider .seq-prev, .site-main-slider .seq-next {
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    z-index: 10;
+    border: none;
+    margin: auto 0;
+    transition: 400ms ease;
+    transition-property: background-color;
+    display: none;
+}
+
+.site-main-slider .seq-pagination {
+    display: block;
+}
+/*===================================
+      Banner-slider-section-end
+ ==================================*/
+
+
+/*================================
+           About-section-start
+======================================*/
+   /*------------
+   320 ar defolt style start
+   ------------------*/
+    .text-center.header-section {
+        margin-top: -50px;
+    }
+    .section-title-bar{
+        margin-bottom: 45px;
+    }
+  .section-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+
+.about-main-section {
+	margin-bottom: 50px;
+}
+
+
+    .about-left-content h3 {
+        font-size: 18px;
+        line-height: 0;
+        margin-bottom: 5px;
+    }
+
+    .about-right-img {
+        padding-top: 20px;
+    }
+.about-right-img img {
+    margin-bottom: 50px;
+}
+
+    .about-right-img2 img {
+        margin-bottom: 15px;
+    }
+
+    .about-right-img2 img {
+        margin-bottom: 30px;
+    }
+
+    #about-main .pr-0,
+    .px-0 {
+        padding-right: 0px !important;
+    }
+
+   .signature img {
+    left: 204px;
+    top: -47px;
+}
+.about-right-img img {
+    margin-left: 0px;
+}
+.signature img {
+	left: 280px;
+	top: -30px;
+}
+/*================================
+         About-section-end
+======================================*/
+
+
+
+/*================================
+     Service-section-start
+=====================================*/
+
+#service-bg::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.75);
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.services-header h3 {
+	font-size: 24px;
+	line-height: 34px;
+}
+.media h3 {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.text-light {
+	font-size: 14px;
+}
+
+/*================================
+      Service-section-end
+=====================================*/
+
+
+
+/*==========================
+   Featured-Class-section-start
+=============================*/
+.card .icon-bog {
+    top: 40%;
+}
+
+.feature-slider-control {
+    display: none;
+}
+.featured .card-body h4{
+	font-size: 20px;
+}
+
+#featured ul.slick-dots{
+    display: block !important;
+}
+#featured .slick-dots {
+    position: absolute;
+    left: 40%;
+    bottom: -30px;
+}
+#featured {
+    position: relative;
+    padding-bottom: 145px;
+}
+/*==========================
+   Featured-Class-section-end
+=============================*/
+
+
+/*================================
+  Frequently-asked-questions-Class-section-start
+=====================================*/
+
+.training-faq {
+    padding-top: 50px;
+    position: relative;
+
+}
+.trining-back-img img {
+    height: auto;
+    padding-top: 60px;
+}
+#training .pr-0, .px-0 {
+   padding-right: 0px !important; 
+}
+.faq-dropdown{
+    margin-top: 15px;
+}
+.faq-content p{
+    font-size: 13px;
+}
+.training-faq {
+    padding-right: 0px;
+}
+
+/*================================
+  Frequently-asked-questions-Class-section-end
+=====================================*/
+
+
+
+/*================================
+       Class-Schedule-section-start
+=====================================*/
+
+    .block-schedule .tab-nav a {
+        margin-right: 15px;
+        margin-bottom: 14px;
+    }
+
+ .bg-white .icon-person.mr-3 {
+    margin-left: -38px;
+}
+
+.block-schedule .tab-nav a {
+    color: #fff;
+    text-transform: uppercase;
+    background: #c01527;
+    background-color: rgb(192, 21, 39);
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+.block-schedule .tab-nav a {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.nav-pills .nav-link {
+    border-radius: 3px;
+}
+.btn.primary-btn.btn-sm.btn-round.pill.px-4.mt-3.mt-md-0 {
+    margin-top: 20px !important;
+}
+
+/*================================
+         Class-Schedule-section-end
+=====================================*/
+
+
+
+/*================================
+          Bmi-section-start
+=====================================*/
+.bmi input{
+    margin: 0px 0px;
+}
+.bmi-btn {
+    left: -90px !important;
+}
+.bmi-header h3 {
+    margin-bottom: 17px;
+    font-size: 20px;
+}
+.bmi-btn {
+    left: -58px;
+}
+.bmi-btn span {
+    display: block;
+    padding-top: 35px;
+}
+.bmi.text-center {
+    margin-bottom: 30px;
+}
+/*================================
+         Bmi-section-end
+=====================================*/
+
+
+
+/*================================
+       Our-tenars-section-start
+=====================================*/
+.trainers-slider-control{
+    display: none;
+}
+.trainer-img-overlay ul li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.trainer-thumbnail:hover .trainer-img-overlay {
+    height: 75%;
+}
+.trainer-img-overlay {
+    height: 20%;
+}
+
+#tenars-bg ul.slick-dots{
+    display: block !important;
+}
+#tenars-bg .slick-dots {
+    position: absolute;
+    left: 40%;
+    bottom: -30px;
+}
+#pricing-plan {
+    margin-top: 50px;
+}
+/*================================
+          Our-tenars-section-end
+=====================================*/
+
+
+
+/*================================
+          Pricing-section-start
+=====================================*/
+
+.pricetable {
+    margin-bottom: 30px;
+}
+
+.xs-mb{
+    margin-bottom: 0;
+}
+
+
+/*================================
+          Pricing-section-end
+=====================================*/
+
+
+
+
+
+
+
+
+
+
+/*==========================================
+ Counter-up-section-start 
+==========================================
+*/
+
+.counter-item h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.counter-item h3{
+    font-size: 30px;
+}
+.counter-item h2 {
+    margin-top: 20px;
+}
+.sm-mb-0{
+    margin-bottom: 0 !important;
+}
+/*
+==========================================
+ Counter-up-section-end 
+==========================================
+*/
+
+
+
+/*
+==========================================
+ Gallery-section-start  
+==========================================
+*/
+
+.xs-pb{
+   padding-bottom: 25px !important;
+}
+
+/*
+==========================================
+ Gallery-section-end 
+==========================================
+*/
+
+
+/*
+==========================================
+ Latest-blog-news-section-start 
+==========================================
+*/
+.blog-post-content ul li {
+    margin-right: 15px;
+}
+.blog-post-content p{
+    font-size: 14px;
+}
+.blog-post-content ul.list-inline {
+
+    text-align: left;
+}
+
+
+/*
+==========================================
+ Latest-blog-news-section-start 
+==========================================
+*/
+
+
+/*
+==========================================
+ Footer-section-start 
+==========================================
+*/
+.footer-left-content ul.list-inline{
+    text-align: left;
+}
+.js-contact-info h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+}
+
+/*
+==========================================
+Footer-section-end 
+==========================================
+*/
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 575.99px) {
+
+
+/*===================================
+     Nav-section-start
+ =======================================*/
+
+section {
+    padding: 80px 0px !important;
+}
+
+ .header-top-contact ul li a {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+    .back-to-top {
+        right: 4px;
+    }
+
+  .header-bottom {
+    background: #00142c; 
+    padding-top: 24px;
+}
+ ul.list-inline {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*header top toggle icon*/
+    .header-top-toggle {
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 39px;
+        background: #00142c;
+        width: 100%;
+        height: auto;
+        z-index: 9999;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    .toggle-icon {
+        float: right;
+        background: #00142c;
+        text-align: center;
+        border-radius: 1px;
+        position: relative;
+        top: -14px;
+        left: 0;
+        display: block;
+    }
+
+    .toggle-icon i {
+        font-size: 35px;
+        padding: 3px 6px;
+        color: #fff;
+    }
+
+
+    .navbar-brand img {
+        width: 155px;
+    }
+
+.nav-item {
+    text-align: center;
+}
+
+    .navbar {
+        padding: 8px 16px;
+        overflow: hidden;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: transparent;
+        font-size: 30px;
+    }
+
+    .navbar::after {
+        display: none;
+    }
+
+    #about-main .pr-0,
+    .px-0 {
+        padding-right: 15px !important;
+    }
+
+
+    .box .details {
+        bottom: 67px;
+    }
+
+    .slider2 {
+        margin-top: 0px;
+    }
+    .navbar.navbar-expand-lg.navbar-light {
+    position: relative;
+    bottom: 12px;
+}
+
+    /*===================================
+     Nav-section-end
+ =======================================*/
+
+/*===================================
+        Banner-slider-section-start
+    ==================================*/
+
+    .site-main-slider .seq-pagination {
+  /* pagination */
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  width: 100%;
+  z-index: 10;
+ display: block;
+  text-align: center;
+}
+
+    .slider_text h1 {
+        color: #fff;
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .slider-control {
+    display: none;
+}
+.slider_text h1 {
+    font-size: 45px;
+    line-height: 60px;
+    text-align: left;
+}
+.slider_text.text-right.slider-text-right h1 {
+    position: relative;
+    left: -10px;
+}
+.slider2 h1 {
+  font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.slider-text-right h1 {
+font-size: 45px;
+    line-height: 60px;
+    text-align: right;
+}
+.slider_text{
+    padding-top: 0;
+}
+.slider-bg1,
+.slider-bg2,
+.slider-bg3{
+    padding-bottom: 100px;
+}
+
+#banner-slider ul.slick-dots{
+    display: block !important;
+
+}
+
+#banner-slider .slick-dots {
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+}
+.btn {
+    padding: 10px 15px !important;
+    font-size: 14px;
+}
+.site-main-slider .seq-pagination {
+  /* pagination */
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  display: block;
+}
+
+/*===================================
+      Banner-slider-section-end
+ ==================================*/
+
+
+/*================================
+           About-section-start
+======================================*/
+
+.about-main-section {
+	margin-bottom: 50px;
+}
+
+    .text-center.header-section {
+        margin-top: -50px;
+    }
+    .section-title-bar{
+        margin-bottom: 45px;
+    }
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .about-left-content h3 {
+        font-size: 18px;
+        line-height: 0;
+        margin-bottom: 5px;
+    }
+
+    .about-right-img {
+        padding-top: 20px;
+    }
+
+    .about-right-img img {
+        margin-bottom: 40px;
+    }
+
+    .about-right-img2 img {
+        margin-bottom: 15px;
+    }
+
+    .about-right-img2 img {
+        margin-bottom: 15px;
+    }
+
+    #about-main .pr-0,
+    .px-0 {
+        padding-right: 0px !important;
+    }
+
+/*   .signature img {
+    left: 204px;
+    top: -47px;
+}*/
+.signature img {
+	left: -12px;
+	top: 60px;
+	margin-bottom: 80px;
+}
+.about-right-img img {
+    margin-left: 0px;
+}
+/*================================
+         About-section-end
+======================================*/
+
+
+
+/*================================
+     Service-section-start
+=====================================*/
+#service-bg:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.75);
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+ .text-light {
+        margin-bottom: 0;
+        margin-bottom: 10px;
+    }
+
+#service-bg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services-header h3 {
+	font-size: 24px;
+	line-height: 34px;
+}
+.media h3 {
+	font-size: 24px;
+	line-height: 34px;
+}
+.text-light {
+	font-size: 14px;
+}
+
+/*================================
+      Service-section-end
+=====================================*/
+
+
+
+/*==========================
+   Featured-Class-section-start
+=============================*/
+
+
+.feature-slider-control {
+    display: none;
+}
+
+#featured ul.slick-dots{
+    display: block !important;
+}
+#featured .slick-dots {
+    position: absolute;
+    left: 30%;
+    bottom: -30px;
+}
+#training {
+    margin-top: 50px;
+}
+
+.card:hover {
+    transform: scale(1);
+    -webkit-box-shadow: 0px 10px 11px -4px #eee;
+    -moz-box-shadow: 0px 10px 11px -4px #eee;
+    box-shadow: 0px 10px 11px -4px #eee;
+    z-index: 99;
+}
+
+/*==========================
+   Featured-Class-section-end
+=============================*/
+
+
+/*================================
+ Frequently-asked-questions-Class-section-start
+=====================================*/
+
+.training-faq {
+    padding-top: 50px;
+    position: relative;
+
+}
+.trining-back-img img {
+    height: auto;
+    padding-top: 60px;
+}
+#training .pr-0, .px-0 {
+   padding-right: 0px !important; 
+}
+.faq-dropdown{
+    margin-top: 15px;
+}
+.faq-content p{
+    font-size: 13px;
+}
+.training-faq {
+    padding-right: 0px;
+}
+
+/*================================
+ Frequently-asked-questions-Class-section-end
+=====================================*/
+
+/*================================
+       Class-Schedule-section-start
+=====================================*/
+
+
+    .block-schedule .tab-nav a {
+        margin-right: 15px;
+        margin-bottom: 14px;
+    }
+.block-schedule .col-sm-3.col-md-3.col-lg-3.text-md-right {
+    text-align: center;
+
+}
+.block-schedule .col-sm-3.col-md-3.col-lg-3 {
+    text-align: center;
+}
+
+.block-schedule .tab-nav a {
+    padding: 10px 18px;
+    font-size: 10px;
+}
+
+.block-schedule .tab-nav a {
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #00142c;
+    margin-bottom: 3px;
+}
+/*================================
+         Class-Schedule-section-end
+=====================================*/
+
+
+
+/*================================
+          Bmi-section-start
+=====================================*/
+.bmi input{
+    margin: 0px 0px;
+}
+.bmi-header h3 {
+    margin-bottom: 17px;
+    font-size: 20px;
+}
+.bmi-btn {
+    left: -58px;
+}
+.bmi-btn span {
+    display: block;
+    padding-top: 35px;
+}
+/*================================
+         Bmi-section-end
+=====================================*/
+
+
+
+/*================================
+       Our-tenars-section-start
+=====================================*/
+.trainers-slider-control{
+    display: none;
+}
+.trainer-img-overlay ul li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+.trainer-thumbnail:hover .trainer-img-overlay {
+    height: 65%;
+}
+.trainer-img-overlay {
+    height: 40%;
+}
+#tenars-bg ul.slick-dots{
+    display: block !important;
+}
+#tenars-bg .slick-dots {
+    position: absolute;
+    left: 30%;
+    bottom: -30px;
+}
+#pricing-plan {
+    margin-top: 50px;
+}
+
+/*================================
+          Our-tenars-section-end
+=====================================*/
+
+
+
+/*================================
+          Pricing-section-start
+=====================================*/
+
+.pricetable {
+    margin-bottom: 30px;
+}
+
+.xs-mb{
+    margin-bottom: 0;
+}
+
+/*================================
+          Pricing-section-end
+=====================================*/
+
+
+
+
+
+
+
+
+
+
+/*==========================================
+ Counter-up-section-start 
+==========================================
+*/
+
+.counter-item h2 {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.counter-item h3{
+    font-size: 30px;
+}
+
+/*
+==========================================
+ Counter-up-section-end 
+==========================================
+*/
+
+
+
+/*
+==========================================
+ Gallery-section-start  
+==========================================
+*/
+
+.xs-pb{
+   padding-bottom: 25px !important;
+}
+
+/*
+==========================================
+ Gallery-section-end 
+==========================================
+*/
+
+
+/*
+==========================================
+ Latest-blog-news-section-start 
+==========================================
+*/
+.blog-post-content ul li {
+    margin-right: 15px;
+}
+.blog-post-content p{
+    font-size: 14px;
+}
+.blog-post-content ul.list-inline {
+
+    text-align: left;
+}
+
+/*
+==========================================
+ Latest-blog-news-section-start 
+==========================================
+*/
+
+
+/*
+==========================================
+ Footer-section-start 
+==========================================
+*/
+.footer-left-content ul.list-inline{
+    text-align: left;
+}
+.js-contact-info h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+}
+
+
+/*
+==========================================
+Footer-section-end 
+==========================================
+*/
+
+
+
+
+

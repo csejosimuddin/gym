@@ -1,0 +1,219 @@
+
+
+/*========================*/
+/*  1.Theme default CSS
+/*========================*/ 
+/*-- Google Font --*/   
+
+
+/*-- Common Style --*/
+
+/*Google fonts*/
+/*font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i');
+
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,600i,700');
+
+
+*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { 
+	color: #676767;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	line-height: 26px;
+	visibility: visible;
+}
+ 
+ h2, h3, h4, h5, h6 { 
+	text-transform: capitalize;
+	color: #333333; 
+	margin: 0;
+	padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+/*.all-header{
+	 font-family: 'Montserrat', sans-serif;
+	 font-weight: 600;
+	 font-size: 35px; 
+}*/
+/*
+.header-section-space-bttom{
+	padding-bottom: 16px;
+}
+.header-section p {
+	margin: 0px;
+	padding: 0;
+	max-width: 812px;
+	margin: 0 auto;
+	padding-bottom: 55px;
+}*/
+
+h1 { font-size: 50px; font-weight: 700; line-height: 64px; font-family: 'Open Sans', sans-serif;}
+
+h2 { font-size: 38px; font-weight: 400; line-height: 52px}
+
+h3 { font-size: 28px; font-weight: 400; line-height: 40px}
+
+h4 { font-size: 24px; font-weight: 400; line-height: 34px}
+
+h5 { font-size: 18px; font-weight: 400; line-height: 28px}
+
+h6 { font-size: 16px; font-weight: normal; line-height: 26px}
+
+p { 
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+
+p.lead { line-height: 28px; font-size: 18px;}  
+ 
+li:last-child { margin-right: 0 !important; padding-right: 0; border-right: 0; }
+
+li:last-child a { margin-right: 0; padding-right: 0; }
+
+ul { list-style-type: none; }
+
+ul { list-style: outside none none; margin: 0; padding: 0; }
+
+ul.list-inline{	display: block; } 
+
+ul.list-inline li{ display: inline-block; }
+
+a, button { 
+	color: inherit; 
+	display: inline-block; 
+	line-height: inherit; 
+	text-decoration: none;
+	cursor: pointer; 
+}
+ a{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 400;
+ 	color: #aeb5a6;
+ 	text-decoration: none;
+ }
+ .primary-color{
+ 	color: #c01527; 
+ }
+
+
+.primary-bg{
+background: #c01527;
+}
+
+.primary-btn:hover {
+	background: 0 0;
+	color: #c01527;
+}
+
+.btn{
+	padding: 12px 35px;
+	font: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.primary-btn{
+	background: #c01527;
+	color: #fff;
+	border: 2px solid #c01527;
+}
+
+
+.light-btn{
+	background: #c01527;
+	color: #fff;
+}
+
+
+.btn-sm{
+	padding: 10px 25px !important;
+	font-size: 13px
+
+}
+
+
+.btn-round{
+	border-radius: 50px;
+}
+ 
+
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: 0 0 0 -0.8rem rgba(0,123,255,.25);
+}
+.btn:focus, .btn:hover {
+	background: 0 0;
+	color: #c01527;
+	text-decoration: none;
+}
+
+.light-btn:focus,
+.light-btn:hover{
+	background: #00142c;
+	color: #fff;
+} 
+
+
+.card .icon-bog,
+.left_img,
+.right_img,
+.light-btn,
+#banner-slider .slider-control .angle-left,
+#banner-slider .slider-control .angle-right,
+.card-body,
+.card,
+.icon-bog,
+#featured .feature-slider-control .feature-left,
+#featured .feature-slider-control .feature-right,
+.block-schedule .row-wrap > .row,
+.trainer-thumbnail,
+.trainer-img-overlay,
+#tenars-bg .trainers-slider-control .trainers-left,
+#tenars-bg .trainers-slider-control .trainers-right,
+.pricing-plan,
+.overlay,
+.blog-post-thumbnail,
+.blog-post-item ,
+.m-md-auto .blog-post-thumbnail,
+.form-label,
+.btn-start-order,
+.footer-left-content ul li a,
+.text-center,
+.sticky,
+.header-top-icon ul li a,
+.navbar,
+.navbar-light .navbar-nav .nav-link,
+.nav-link .btn-outline-secondary,
+.trainer-img-overlay ul li a,
+.btn, a, i, button, img, input, span, *:before, *:after { 
+	-webkit-transition: all 0.5s ease 0s; 
+	-o-transition: all 0.5s ease 0s; 
+	transition: all 0.5s ease 0s; 
+}
+
+
+
+img{ max-width: 100%;  display: block; border: none;}
+
+*:focus { outline: none !important; }
+
+a:focus { color: inherit; outline: none; text-decoration: none; }
+
+a:hover {
+ text-decoration: none;
+ color: #c01527;
+
+  }
+
+button, input[type="submit"] { cursor: pointer; }
+section{
+	padding: 100px 0;
+}

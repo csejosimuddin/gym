@@ -1,0 +1,616 @@
+
+
+/*-----------------------------------------------------------------------------------
+
+ [Main slider (section)]
+
+ # Main slider container
+ # bootstrap container (fluid) for slider
+ # slider navigation
+ # Icomoon custom icon for slider navigation
+ # slider container
+ # slider background images change css
+ # slider pagination
+ # slider bullets
+ # slider content holder (caption)
+ # h1 heading
+ # h2 heading
+ # paragraph
+ # slider
+
+-----------------------------------------------------------------------------------*/
+/* Main Slider */
+.site-main-slider {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  clear: both;
+  background-color:#000000;
+  background:url(../images/header-slider-bg.png) top center no-repeat;
+  background-attachment:fixed;
+  background-size:cover; 
+  min-height: 100px;
+  position:relative;
+
+}
+
+.site-main-slider .container-fluid {
+  /* bootstrap fluid container max width set for slider */
+  max-width: 1200px;
+}
+
+.site-main-slider .swiper-button-prev, .site-main-slider .swiper-button-next {
+  /* slider navigation next and prev button */
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 0;
+  left: 0;
+  transition: 400ms ease;
+  transition-property: background-color;
+}
+
+@media screen and (max-width: 767px) {
+  .site-main-slider .swiper-button-prev, .site-main-slider .swiper-button-next {
+    top: 20px;
+    left: 20px;
+  }
+}
+
+.site-main-slider .swiper-button-prev:hover, .site-main-slider .swiper-button-next:hover {
+  /* button hover */
+  background-color: #fd3c3d;
+}
+
+.site-main-slider .swiper-button-prev:hover:before, .site-main-slider .swiper-button-next:hover:before {
+  color: white;
+  opacity: 1;
+}
+
+.site-main-slider .swiper-button-prev:before, .site-main-slider .swiper-button-next:before {
+  /* Custom font icon */
+  opacity: 0.4;
+  color: #1e222e;
+  transition: 400ms ease;
+  transition-property: color, opacity;
+}
+
+.site-main-slider .swiper-button-next {
+  /* slider navigation next button  */
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 0;
+  right: 0;
+  left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .site-main-slider .swiper-button-next {
+    right: 20px;
+  }
+}
+
+.site-main-slider .swiper-container {
+  /* slider container */
+  width: 100%;
+  height: 100%;
+  background: #E8E8E9;
+}
+
+.site-main-slider .swiper-slide {
+  /* single slide
+     Here is the code. If you want to change the slider background image css.*/
+  background-position: center center;
+  background-size: cover;
+  padding: 140px 0 160px;
+}
+
+@media screen and (max-width: 991px) {
+  .site-main-slider .swiper-slide {
+    background-position: center left;
+  }
+}
+
+.site-main-slider .swiper-pagination {
+  /* slider pagination container */
+  width: 100%;
+  clear: both;
+  padding: 0;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 0 47px;
+}
+
+.site-main-slider .swiper-pagination-bullet {
+  /* slider pagination bullet */
+  width: 16px;
+  height: 16px;
+  background-color: #acafb5;
+  border-radius: 100px;
+}
+
+.site-main-slider .swiper-pagination-bullet-active {
+  /* slider active pagination bullet */
+  background-color: #fd3c3d;
+}
+
+.site-main-slider .sequence-caption {
+  /* slider content holder (caption) */
+  position: relative;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 991px) {
+  .site-main-slider .sequence-caption {
+    transform: translateY(0);
+    top: 0;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-main-slider .sequence-caption {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    padding-top: 80px;
+  }
+}
+
+
+@media screen and (max-width: 1199px) {
+  .site-main-slider h1 {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .site-main-slider h1 {
+    font-size:42px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-main-slider h1 {
+    font-size: 42px;
+    line-height:2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .site-main-slider h1 {
+    font-size: 32px;
+    line-height:2;
+  }
+  
+  .site-main-slider p {
+	  font-size:13px;
+	  line-height:1.5;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+  .site-main-slider h1 {
+    font-size: 32px;
+    line-height:2;
+  }
+  
+  .site-main-slider p {
+	  font-size:13px;
+	  line-height:1.5;
+  }
+  
+  
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+  .site-main-slider h1:before {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .site-main-slider h2 {
+    text-align: center;
+	padding:0;
+	margin:0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-main-slider h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .site-main-slider p {
+    text-align: center;
+	padding:0;
+	margin:0;
+  }
+}
+
+
+.site-main-slider .seq-canvas {
+  /* Sequence slider */
+  padding: 0;
+  display: block;
+  clear: both;
+  width: 100%;
+  position: relative;
+  min-height: 840px;
+  /* Slider height change */
+  overflow: hidden;
+  background: no-repeat center right;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.site-main-slider .sequence-slide {
+  /* Slides */
+  margin: 0;
+  padding: 0;
+  display: block;
+  clear: both;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.site-main-slider .sequence-slide.seq-in {
+  /*---------------------- Sequence in animation */
+}
+
+.site-main-slider .sequence-slide.seq-in .sequence-bg {
+  /* background image animation */
+  transform: translateX(0);
+}
+
+.site-main-slider .sequence-slide.seq-in .sequence-caption {
+  /* caption animation */
+  opacity: 1;
+  transition-delay: 1500ms;
+}
+
+.site-main-slider .sequence-slide.seq-out {
+  /*---------------------- Sequence out animation */
+}
+
+.site-main-slider .sequence-slide.seq-out .sequence-bg {
+  /* background image animation */
+  transform: translateX(2000px);
+}
+
+.site-main-slider .sequence-slide.seq-out .sequence-caption {
+  /* caption animation */
+  opacity: 0;
+}
+
+.site-main-slider .sequence-bg {
+  /* Background image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  clear: both;
+  transform: translateX(-2000px);
+  transition: transform 2000ms ease;
+  background: no-repeat center right 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  .site-main-slider .sequence-bg {
+    background-size: 40%;
+    background-position: right bottom;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .site-main-slider .sequence-bg {
+    background-size: 35%;
+    background-position: center bottom;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-main-slider .sequence-bg {
+    background-size: 40%;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .site-main-slider .sequence-bg {
+    background-size: 50%;
+  }
+  
+  .site-main-slider .seq-canvas {
+	  min-height:800px;
+  }
+  
+}	
+
+@media screen and (max-width: 320px) {
+  .site-main-slider .sequence-bg {
+    background-size: 70%;
+  }
+  
+  
+  
+  
+}	
+
+
+.site-main-slider .sequence-caption {
+  /* Caption */
+  opacity: 0;
+  transition: opacity 600ms ease;
+}
+
+@media screen and (max-width: 991px) {
+  .site-main-slider .sequence-caption {
+    text-align: center;
+  }
+}
+
+.site-main-slider .seq-pagination {
+  /* pagination */
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  display: none;
+}
+
+.site-main-slider .seq-pagination li {
+  width: 16px;
+  height: 16px;
+  background-color: #acafb5;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
+  cursor: pointer;
+  transition: 400ms ease;
+  transition-property: background-color;
+  margin: 4px;
+}
+
+.site-main-slider .seq-pagination li.seq-current {
+  background-color: #c01527;
+}
+
+.site-main-slider .seq-prev, .site-main-slider .seq-next {
+  /* navigation */
+  padding: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  z-index: 10;
+  border: none;
+  margin: auto 0;
+  transition: 400ms ease;
+  transition-property: background-color;
+}
+
+@media screen and (max-width: 767px) {
+  .site-main-slider .seq-prev, .site-main-slider .seq-next {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.site-main-slider .seq-prev:hover, .site-main-slider .seq-next:hover {
+  background: #fd3c3d;
+}
+
+.site-main-slider .seq-prev:hover span, .site-main-slider .seq-next:hover span {
+  opacity: 1;
+  color: white;
+}
+
+.site-main-slider .seq-prev span, .site-main-slider .seq-next span {
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+  color: #1e222e;
+  transition: 400ms ease;
+  transition-property: color, opacity;
+}
+
+.site-main-slider .seq-next {
+  left: auto;
+  right: 0;
+}
+
+.site-main-slider.slider-version-1 {
+  /* ------------------------ slider version 1 */
+  background-color: #404040;
+}
+
+.site-main-slider.slider-version-1 .seq-canvas {
+  max-width: 100%;
+}
+
+.site-main-slider.slider-version-1 .sequence-slide .sequence-bg {
+  background: no-repeat center;
+  background-size: cover;
+  opacity: 0;
+  transform: scale(1);
+  transition: transform 2000ms ease, opacity 2000ms ease;
+}
+
+.site-main-slider.slider-version-1 .sequence-caption {
+  text-align: center;
+  width: 100%;
+  opacity: 1;
+  transition: transform 2000ms ease;
+  transition-delay: 0ms !important;
+  top: 50%;
+  transform: translate(-2000px, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+.site-main-slider.slider-version-1 .sequence-slide.seq-in .sequence-bg {
+  /* background image animation */
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.site-main-slider.slider-version-1 .sequence-slide.seq-in .sequence-caption {
+  /* caption animation */
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+
+
+
+
+
+@media screen and (max-width:1199px) {
+  .site-main-slider.slider-version-2 p {
+  color: white;
+  padding:0px;
+}
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .site-main-slider.slider-version-2 .sequence-caption h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+
+.site-main-slider.slider-version-2 .sequence-caption h1:before {
+  display: none;
+}
+
+.site-main-slider.slider-version-2 .sequence-caption .theme-btn {
+  margin-right: 12px;
+  margin-left: 12px;
+  border-color: #fd3c3d;
+  background: #fd3c3d;
+}
+
+.site-main-slider.slider-version-2 .sequence-caption .theme-btn:hover {
+  background: white;
+  color: rgba(30, 34, 46, 0.6);
+  border-color: white;
+}
+
+.site-main-slider.slider-version-2 .sequence-slide.seq-in {
+  /*---------------------- Sequence in animation */
+}
+
+.site-main-slider.slider-version-2 .sequence-slide.seq-in .sequence-bg {
+  /* background image animation */
+  transform: scale(1);
+  opacity: 1;
+}
+
+.site-main-slider.slider-version-2 .sequence-slide.seq-in .sequence-caption {
+  /* caption animation */
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+.site-main-slider.slider-version-2 .sequence-slide.seq-out {
+  /*---------------------- Sequence out animation */
+}
+
+.site-main-slider.slider-version-2 .sequence-slide.seq-out .sequence-bg {
+  /* background image animation */
+  transform: scale(1);
+  opacity: 0;
+}
+
+.site-main-slider.slider-version-2 .sequence-slide.seq-out .sequence-caption {
+  /* caption animation */
+  opacity: 1;
+  transform: translate(2000px, -50%);
+}
+
+
+#sequence li:last-child a {
+  margin-right: 0;
+  padding-right: 30px !important;
+}
+
+.seq-prev i {
+  position: relative;
+  top: 6px;
+}
+
+.seq-prev:hover i{
+  color: #fff;
+} 
+
+
+.seq-next i {
+  position: relative;
+  top: 6px;
+}
+
+.seq-next:hover i{
+  color: #fff;
+}
